@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #111827;
+            font-family: Arial, sans-serif;
+        }
+
+        .tarjeta {
+            width: 380px;
+            padding: 35px;
+            background: linear-gradient(145deg, #1f2937, #111827);
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+            border: 1px solid #374151;
+        }
+
+        .foto {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: #3b82f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .profesion {
+            color: #60a5fa;
+            font-size: 17px;
+            margin-bottom: 25px;
+        }
+
+        .descripcion {
+            color: #d1d5db;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .contacto {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+
+        .contacto a {
+            color: #e5e7eb;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 8px;
+            background: #1f2937;
+            transition: 0.3s;
+        }
+
+        .contacto a:hover {
+            background: #3b82f6;
+            transform: translateY(-2px);
+        }
+
+        .redes {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .redes a {
+            width: 42px;
+            height: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: #374151;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .redes a:hover {
+            background: #3b82f6;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="tarjeta">
+
+        <div class="foto">
+            JD
+        </div>
+
+        <h1>David Leonardo Flores Moreno</h1>
+
+        <p class="profesion">
+            Tecnico Superior en infraestructura de redes inteligentes y ciberseguridad
+        </p>
+
+        <p class="descripcion">
+            Soy bueno en hacer soporte tecnico alas computadoras
+            Me gusta mucho salir con mis amigos.
+        </p>
+
+        <div class="contacto">
+
+            <a href="mailto:juan@email.com">
+                📧 david@email.com
+            </a>
+
+            <a href="tel:+5218441234567">
+                📱 +52 844 550 1322
+            </a>
+
+            <a href="#">
+                🌐 www.davidflores.com
+            </a>
+
+        </div>
+
+        <div class="redes">
+
+            <a href="#">f</a>
+            <a href="#">in</a>
+            <a href="#">X</a>
+            <a href="#">ig</a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
